@@ -17,6 +17,7 @@
 DEVICE_PATH := device/xiaomi/lava
 
 TARGET_BOOTLOADER_BOARD_NAME := lava
+BOARD_HAS_MTK_HARDWARE := true
 
 # Inherit from mt6768-common
 -include device/xiaomi/mt6768-common/BoardConfigCommon.mk
